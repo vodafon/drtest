@@ -8,6 +8,6 @@ describe Lib do
   
   it 'must test' do
     s = Lib.new.test(2, 3)
-    expect(s).to eq 5
+    expect(s).to eq(-1)
   end
 end
