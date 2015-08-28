@@ -2,3 +2,9 @@ image: ruby2.2
 script:
   - chmod +x build.sh
   - build.sh
+notify:
+  email:
+    recipients:
+      - vodafon.ua@gmail.com
+    on_success: true
+    on_failure: true
