@@ -5,4 +5,9 @@ describe Lib do
     s = Lib.new.sum(2, 3)
     expect(s).to eq 5
   end
+  
+  it 'must test' do
+    s = Lib.new.test(2, 3)
+    expect(s).to eq 5
+  end
 end
