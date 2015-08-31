@@ -1,4 +1,4 @@
-image: ruby:2.2
+image: vodafon/railsci
 script:
   - chmod +x build.sh
   - ./build.sh
